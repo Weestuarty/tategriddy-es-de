@@ -6,6 +6,7 @@ Tategriddy is an exclusively TATE theme set for ES-DE that supports all systems 
 ![systemscar](sysc.png)
 ![games](game.png)
 ![gamestext](gamet.png)
+
 The following options are included:
 
 4 variants:
