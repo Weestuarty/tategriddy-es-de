@@ -28,7 +28,7 @@ The following options are included:
 - Blue
 
 
-4 aspect ratios:
+3 aspect ratios:
 
 - 16:9_vertical (9:16)
 - 4:3_vertical (3:4)
