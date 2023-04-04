@@ -7,6 +7,7 @@
 <theme>
     <include>./navigationsounds.xml</include>
     <include>./colors.xml</include>
+    <include>./metadata-global/_default.xml</include>
     <include>./metadata-global/${system.theme}.xml</include>
 
     <variables>
@@ -71,7 +72,6 @@
             <fontSize>0.04</fontSize>
             <metadataElement>true</metadataElement>
             <fontPath>${secondaryFont}</fontPath>
-
             <color>${headerColor}</color>
             <letterCase>uppercase</letterCase>
         </text>
@@ -276,7 +276,6 @@
                 <folderLinkSize>0.85 0.9</folderLinkSize>
                 <folderLinkPos>0.47 0.48</folderLinkPos>
                 <folderLinkIconColor>${backgroundColor}</folderLinkIconColor>
-                <customFolderLinkIcon>./core/badge/link.png</customFolderLinkIcon>
                 <badgeIconColor>${outlineColor1}</badgeIconColor>
                 <horizontalAlignment>center</horizontalAlignment>
                 <customBadgeIcon badge="kidgame">./core/badge/kid.svg</customBadgeIcon>
@@ -511,7 +510,6 @@
                 <folderLinkSize>0.85 0.9</folderLinkSize>
                 <folderLinkPos>0.47 0.48</folderLinkPos>
                 <folderLinkIconColor>${backgroundColor}</folderLinkIconColor>
-                <customFolderLinkIcon>./core/badge/link.png</customFolderLinkIcon>
                 <badgeIconColor>${outlineColor1}</badgeIconColor>
                 <horizontalAlignment>center</horizontalAlignment>
                 <customBadgeIcon badge="kidgame">./core/badge/kid.svg</customBadgeIcon>
