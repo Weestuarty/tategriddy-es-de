@@ -7,12 +7,16 @@
 <theme>
     <include>./navigationsounds.xml</include>
     <include>./colors.xml</include>
-    <include>./metadata-global/_default.xml</include>
-    <include>./metadata-global/${system.theme}.xml</include>
+    <include>./system/metadata/_default.xml</include>
+    <include>./system/custom/metadata/_default.xml</include>
+    <include>./system/custom/metadata/${system.theme}.xml</include>
+    <include>./system/metadata/${system.theme}.xml</include>
 
     <variables>
         <primaryFont>./core/fonts/berlin.ttf</primaryFont>
         <secondaryFont>./core/fonts/berlinb.ttf</secondaryFont>
+        <syslogo>./system/logos/system-logo-white/${system.theme}.svg</syslogo>
+        <syslogocustom>./system/custom/logo/${system.theme}.svg</syslogocustom>
     </variables>
 
     <aspectRatio name="4:3_vertical">
@@ -29,7 +33,8 @@
             <pos>0.6 0.04</pos>
             <maxSize>0.65 0.06</maxSize>
             <origin>0.5 0</origin>
-            <path>./core/systems/${system.theme}.svg</path>
+            <path>${syslogo}</path>
+            <default>${syslogocustom}</default>
             <color>${gamelogoColor}</color>
             <colorEnd>${gamelogoEndColor}</colorEnd>
         </image>
@@ -103,7 +108,8 @@
                 <pos>0.05 0.02</pos>
                 <size>0.3 .96</size>
                 <type>vertical</type>
-                <staticImage>./core/systems/${system.theme}.svg</staticImage>
+                <staticImage>${syslogo}</staticImage>
+                <defaultImage>${syslogocustom}</defaultImage>
                 <imageColor>${textlogoColor}</imageColor>
                 <imageColorEnd>${textlogoColorEnd}</imageColorEnd>
                 <color>${outlineColor1}</color>
@@ -323,7 +329,8 @@
             <grid name="system_grid">
                 <pos>0.055 0.59</pos>
                 <size>0.9 .37</size>
-                <staticImage>./core/systems/${system.theme}.svg</staticImage>
+                <staticImage>${syslogo}</staticImage>
+                <defaultImage>${syslogocustom}</defaultImage>
                 <imageColor>${syslogoColor}</imageColor>
                 <itemSize>0.29 0.09</itemSize>
                 <itemSpacing>0.01 0.001</itemSpacing>
