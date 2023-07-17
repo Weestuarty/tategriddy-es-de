@@ -276,7 +276,7 @@
                 <direction>row</direction>
                 <lines>1</lines>
                 <itemsPerLine>5</itemsPerLine>
-                <slots>completed, favorite, altemulator, kidgame,</slots>
+                <slots>completed, favorite, altemulator, kidgame, manual</slots>
                 <controllerPos>0.5 0.575</controllerPos>
                 <controllerSize>0.85</controllerSize>
                 <folderLinkSize>0.85 0.9</folderLinkSize>
@@ -284,6 +284,7 @@
                 <folderLinkIconColor>${backgroundColor}</folderLinkIconColor>
                 <badgeIconColor>${outlineColor1}</badgeIconColor>
                 <horizontalAlignment>center</horizontalAlignment>
+                <customBadgeIcon badge="manual">./core/badge/manual.svg</customBadgeIcon>
                 <customBadgeIcon badge="kidgame">./core/badge/kid.svg</customBadgeIcon>
                 <customBadgeIcon badge="collection">./core/badge/collection.svg</customBadgeIcon>
                 <customBadgeIcon badge="altemulator">./core/badge/alt.svg</customBadgeIcon>
@@ -511,7 +512,7 @@
                 <direction>column</direction>
                 <lines>1</lines>
                 <itemsPerLine>4</itemsPerLine>
-                <slots>completed, favorite, altemulator, kidgame,</slots>
+                <slots>completed, favorite, altemulator, kidgame,manual</slots>
                 <controllerPos>0.5 0.575</controllerPos>
                 <controllerSize>0.85</controllerSize>
                 <folderLinkSize>0.85 0.9</folderLinkSize>
@@ -519,6 +520,7 @@
                 <folderLinkIconColor>${backgroundColor}</folderLinkIconColor>
                 <badgeIconColor>${outlineColor1}</badgeIconColor>
                 <horizontalAlignment>center</horizontalAlignment>
+                <customBadgeIcon badge="manual">./core/badge/manual.svg</customBadgeIcon>
                 <customBadgeIcon badge="kidgame">./core/badge/kid.svg</customBadgeIcon>
                 <customBadgeIcon badge="collection">./core/badge/collection.svg</customBadgeIcon>
                 <customBadgeIcon badge="altemulator">./core/badge/alt.svg</customBadgeIcon>
