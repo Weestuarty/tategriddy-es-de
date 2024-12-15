@@ -7,6 +7,7 @@
 <theme>
     <include>./navigationsounds.xml</include>
     <include>./colors.xml</include>
+    <include>./languages.xml</include>
     <include>./system/metadata/_default.xml</include>
     <include>./system/custom/metadata/_default.xml</include>
     <include>./system/custom/metadata/${system.theme}.xml</include>
@@ -73,7 +74,7 @@
         </badges>
         <text name="md_lbl_players">
             <pos>0.3 0.105</pos>
-            <text>players:</text>
+            <text>${langLabelPlayers}:</text>
             <fontSize>0.04</fontSize>
             <metadataElement>true</metadataElement>
             <fontPath>${secondaryFont}</fontPath>
@@ -130,7 +131,7 @@
                 <pos>0.81 0.05</pos>
                 <size>0 0.05</size>
                 <origin>1 .5</origin>
-                <text>Titles Installed:</text>
+                <text>${langLabelContain}:</text>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.03</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
@@ -377,7 +378,7 @@
                 <pos>0.81 0.04</pos>
                 <size>0 0.05</size>
                 <origin>1 .5</origin>
-                <text>Titles Installed:</text>
+                <text>${langLabelContain}:</text>
                 <fontPath>${primaryFont}</fontPath>
                 <fontSize>0.03</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
